@@ -7,32 +7,38 @@
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
+  {{site.bio}}
 </p>
 
 {% if include.metadata %}
-  <div class="f4 mb-6">
+  <div class="f4 mb-1">
+    <!-- <div class="{{ metadata_styles }}">
+      {% octicon clippy height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <a href="Resume.pdf" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        My Resume
+      </a>
+    </div> -->
     {% if user.name %}
-      <div class="{{ metadata_styles }}">
+      <!-- <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
         <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           @{{ user.login }}
         </a>
-      </div>
+      </div> -->
     {% endif %}
-    {% if user.email %}
+    {% if site.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+        <a href="mailto:{{ site.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ site.email }}
         </a>
       </div>
     {% endif %}
     {% if user.location %}
-      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      <!-- <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
         {{ user.location }}
-      </div>
+      </div> -->
     {% endif %}
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
@@ -52,3 +58,6 @@
     {% endif %}
   </div>
 {% endif %}
+{% unless posts_total == 0 %}
+    {% include thoughts.html %}
+{% endunless %}

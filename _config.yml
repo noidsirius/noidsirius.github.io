@@ -16,35 +16,105 @@ defaults:
     values:
       layout: "post"
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
+bio: "You can find my resume <a href='Resume.pdf' {% if site.style == 'dark' %}class='text-white'{% endif %}>here</a>.
+Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
+"
 
-# social_media:
+about: "I'm Navid, a Ph.D. student at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
+My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
+I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
+"
+
+email: nsalehna@uci.edu
+
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: navid-salehnamadi
+  github: noidsirius
+  scholar: 2WTPqM8AAAAJ
   # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
+  medium: noidsirius
+  stackoverflow: 2681272/noidsirius
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+
+publication:
+  - name: "ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
+    conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
+    video: https://youtu.be/apEntYA3uIo
+    repo: https://github.com/seal-hub/ercatcher
+    pdf: http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf
+    html_url: http://seal.ics.uci.edu/projects/ercatcher/index.html
+  - name: "Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study"
+    authors: "Jun-Wei Lin, <u>Navid Salehnamadi</u>, and Sam Malek"
+    conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
+    repo: https://github.com/seal-hub/ASE20Empirical
+    pdf: http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf
+    html_url: http://seal.ics.uci.edu/projects/ase20empirical/index.html
+  - name: "A Benchmark for Event-Race Analysis in Android Apps (Poster)"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
+    conference: "<strong>MobiSys 2020</strong>, 18th International Conference on Mobile Systems, Aplications, and Services, June 2020"
+    video: https://youtu.be/eSkozhtT-9o
+    repo: https://github.com/seal-hub/bencheroid
+    pdf: http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf
+    html_url: https://dl.acm.org/doi/abs/10.1145/3386901.3396602
+
+
+
+  # - name: Ben ;
+  #  video: https://youtu.be/eSkozhtT-9o
+    # pdf: http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf
+
+    # pdf: http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf
+
+  # - name: B
+  #   description: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android
+  #   html_url: https://github.com/seal-hub/ERCatcher
+  #
+  # - name: C
+  #   description: A Micro-Benchmark for Event Races in Android
+  #   html_url: https://github.com/seal-hub/bencheroid
+
+
+projects:
+  - name: SootTutorial
+    description: A step-by-step tutorial for Soot, a Java and Android static analysis framework
+    html_url: https://github.com/noidsirius/SootTutorial
+    source: github
+
+  - name: Translation
+    description: A web app designed to translate contest questions of the International Olympiad in Informatics (IOI 2017)
+    html_url: https://github.com/ioi-2017/translation
+    source: github
+
+  - name: BlackBox Testing Sandbox
+    description: A simple tool emulating the black-box testing, used in the Introduction to Software Engineering course in UCI
+    html_url: https://github.com/noidsirius/BlackBoxTestingDemo
+    source: github
+
+  - name: Descrete Mathematic Contest
+    description:  An online contest platform applying active learning techniques for mathematic courses
+    html_url: https://web.archive.org/web/20170505122033/http://acm.ut.ac.ir/acm/posts/190
+    source: other
+
+  - name: Vahed
+    description: A Ruby on Rails web app for students in University of Tehran to schedule their courses in the following semester
+    html_url: https://web.archive.org/web/20170505130936/http://acm.ut.ac.ir/acm/posts/158
+    source: other
+
+
+
+
 
 topics:
   - name: CSS
