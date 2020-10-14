@@ -51,23 +51,23 @@ publication:
   - name: "ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android"
     authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
     conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
-    video: https://youtu.be/apEntYA3uIo
-    repo: https://github.com/seal-hub/ercatcher
-    pdf: http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf
-    html_url: http://seal.ics.uci.edu/projects/ercatcher/index.html
+    video: "https://youtu.be/apEntYA3uIo"
+    repo: "https://github.com/seal-hub/ercatcher"
+    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf"
+    html_url: "http://seal.ics.uci.edu/projects/ercatcher/index.html"
   - name: "Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study"
     authors: "Jun-Wei Lin, <u>Navid Salehnamadi</u>, and Sam Malek"
     conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
-    repo: https://github.com/seal-hub/ASE20Empirical
-    pdf: http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf
-    html_url: http://seal.ics.uci.edu/projects/ase20empirical/index.html
+    repo: "https://github.com/seal-hub/ASE20Empirical"
+    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf"
+    html_url: "http://seal.ics.uci.edu/projects/ase20empirical/index.html"
   - name: "A Benchmark for Event-Race Analysis in Android Apps (Poster)"
     authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
     conference: "<strong>MobiSys 2020</strong>, 18th International Conference on Mobile Systems, Aplications, and Services, June 2020"
-    video: https://youtu.be/eSkozhtT-9o
-    repo: https://github.com/seal-hub/bencheroid
-    pdf: http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf
-    html_url: https://dl.acm.org/doi/abs/10.1145/3386901.3396602
+    video: "https://youtu.be/eSkozhtT-9o"
+    repo: "https://github.com/seal-hub/bencheroid"
+    pdf: "http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3386901.3396602"
 
 
 

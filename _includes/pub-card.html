@@ -13,7 +13,7 @@
           Published in {{ repository.conference }}
         </div>
       {% endif %}
-      {% if repository.conference %}
+      {% if repository.authors %}
         <div class="text-gray mb-2 ws-normal">
           Authors: {{ repository.authors }}
         </div>
@@ -22,7 +22,7 @@
       {% if repository.pdf %}
         <div class="mr-3">
           <a href="{{ repository.pdf }}" class="tooltipped tooltipped-se" aria-label="Download PDF">
-            {% octicon download height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:download %}
+            {% octicon file height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:download %}
           </a>
         </div>
       {% endif %}
