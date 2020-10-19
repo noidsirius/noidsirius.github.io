@@ -16,8 +16,7 @@ defaults:
     values:
       layout: "post"
 
-bio: "You can find my resume <a href='Resume.pdf' {% if site.style == 'dark' %}class='text-white'{% endif %}>here</a>.
-Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
+bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
 "
 
 about: "I'm Navid, a Ph.D. student at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
@@ -46,6 +45,30 @@ social_media:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+
+work:
+  - company: "University of California, Irvine"
+    company_url: "http://seal.ics.uci.edu/"
+    role: "Graduate Research Assistant"
+    start: "October 2017"
+    end: "Present"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed and created novel testing techniques to detect accessibility and delivery issues in android apps </li>
+      <li> Devised a scalable and accurate static analysis technique to detect event races </li>
+      <li> Investigated light-weight model checkers to formally analyze uncertainty in models </li>
+    </ul>"
+  - company: "Avaye Hamrah Hooshmand Hezardastan"
+    company_url: "https://cafebazaar.ir/about?l=en"
+    role: "Software Engineer"
+    start: "October 2015"
+    end: "August 2017"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Coordinated a number of teams (with 6 to 11 members) in CafeBazaar, a local Android app market, to create tools for developers </li>
+      <li> Established a developers panel based on microservice architecture (using Django, Docker, and Kubernetes) </li>
+      <li> Redesigned and developed a system to automate the process of filtering out malwares and low-quality apps </li>
+      <li> Inspected technical teams' performance issues at a company-wide level </li>
+    </ul>"
+
 
 publication:
   - name: "ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android"
@@ -117,9 +140,18 @@ projects:
 
 
 topics:
+  - name: Python
+
+  - name: Program Analysis
+
+  - name: Machine Learning
+
+  - name: Agile (Scrum)
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+    description: I learned something I learned something I learned something I learned something
 
   - name: Web design
 
