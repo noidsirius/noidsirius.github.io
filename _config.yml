@@ -19,7 +19,7 @@ defaults:
 bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
 "
 
-about: "I'm Navid, a Ph.D. student at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
+about: "I'm Navid, a Ph.D. candidate at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
 My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
 I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
 "
@@ -40,7 +40,7 @@ social_media:
   medium: noidsirius
   stackoverflow: 2681272/noidsirius
   # telegram: your_username
-  # twitter: your_username
+  twitter: nsalehna
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
