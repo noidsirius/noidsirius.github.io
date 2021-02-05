@@ -71,6 +71,9 @@ work:
 
 
 publication:
+  - name: "Latte: Use-Case and Assistive-Service Driven Automated Accessibility Testing Framework for Android"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Jun-Wei Lin, Iftekhar Ahmed, Stacy Branham, and Sam Malek"
+    conference: "To appear in <strong>CHI 2021</strong>, Virtual Conference on Human Factors in Computing Systems"
   - name: "ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android"
     authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
     conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
