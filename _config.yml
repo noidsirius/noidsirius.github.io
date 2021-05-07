@@ -22,6 +22,8 @@ bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, 
 about: "I'm Navid, a Ph.D. candidate at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
 My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
 I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
+<br>
+For summer 2021, I am interning at Microsoft Research with <a href=\"https://www.microsoft.com/en-us/research/people/suthumma/\">Suresh Thummalapenta</a>.
 "
 
 email: nsalehna@uci.edu
@@ -47,6 +49,12 @@ social_media:
   # youtube: your_username
 
 work:
+  # - company: "Microsoft Research"
+  #   company_url: ""
+  #   role: "Research Intern"
+  #   start: "June 2021"
+  #   end: "Present"
+  #   description: ""
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu/"
     role: "Graduate Research Assistant"
