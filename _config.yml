@@ -49,12 +49,12 @@ social_media:
   # youtube: your_username
 
 work:
-  # - company: "Microsoft Research"
-  #   company_url: ""
-  #   role: "Research Intern"
-  #   start: "June 2021"
-  #   end: "Present"
-  #   description: ""
+  - company: "Microsoft Research"
+    company_url: ""
+    role: "Research Intern"
+    start: "June 2021"
+    end: "Present"
+    description: ""
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu/"
     role: "Graduate Research Assistant"
