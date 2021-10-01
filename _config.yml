@@ -23,7 +23,7 @@ about: "I'm Navid, a Ph.D. candidate at <a href=\"https://uci.edu/\">the Univers
 My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
 I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
 <br>
-For summer 2021, I am interning at Microsoft Research with <a href=\"https://www.microsoft.com/en-us/research/people/suthumma/\">Suresh Thummalapenta</a>.
+For summer 2021, I was an intern at Microsoft Research, working with <a href=\"https://www.microsoft.com/en-us/research/people/suthumma/\">Suresh Thummalapenta</a>.
 "
 
 email: nsalehna@uci.edu
@@ -49,12 +49,6 @@ social_media:
   # youtube: your_username
 
 work:
-  - company: "Microsoft Research"
-    company_url: ""
-    role: "Research Intern"
-    start: "June 2021"
-    end: "Present"
-    description: ""
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu/"
     role: "Graduate Research Assistant"
@@ -64,6 +58,15 @@ work:
       <li> Designed and created novel testing techniques to detect accessibility and delivery issues in android apps </li>
       <li> Devised a scalable and accurate static analysis technique to detect event races </li>
       <li> Investigated light-weight model checkers to formally analyze uncertainty in models </li>
+    </ul>"
+  - company: "Microsoft Research"
+    company_url: ""
+    role: "Research Intern"
+    start: "June 2021"
+    end: "September 2021"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed a multi-level job caching mechanism, improved the response time +30 times faster than the baseline model</li>
+      <li> Implemented a scalable caching service using ASP.NET, CosmosDB, and Azure Storage </li>
     </ul>"
   - company: "Avaye Hamrah Hooshmand Hezardastan"
     company_url: "https://cafebazaar.ir/about?l=en"
@@ -79,6 +82,11 @@ work:
 
 
 publication:
+  - name: "Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps"
+    authors: "Forough Mehralian, <u>Navid Salehnamadi</u>, and Sam Malek"
+    conference: "<strong>ESEC/FSE 2021</strong>, he ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, August 2021"
+    repo: "https://github.com/fmehralian/COALA"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3468264.3468604"
   - name: "Latte: Use-Case and Assistive-Service Driven Automated Accessibility Testing Framework for Android"
     authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Jun-Wei Lin, Iftekhar Ahmed, Stacy Branham, and Sam Malek"
     conference: "<strong>CHI 2021</strong>, Virtual Conference on Human Factors in Computing Systems, May 2021, 26% acceptance rate"
