@@ -83,11 +83,17 @@ publication:
   - name: "Groundhog: An Automated Accessibility Crawler for Mobile Apps"
     authors: "<u>Navid Salehnamadi*</u>, Forough Mehralian*, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
+  - name: "Too Much Accessibility is Harmful! Automated Detection and Analysis of Overly Accessible Elements in Mobile Apps"
+    authors: "Forough Mehralian*, <u>Navid Salehnamadi*</u>, Syed Fatiul Huq, and Sam Malek"
+    conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
+  - name: "DeltaDroid: Dynamic Delivery Testing in Android"
+    authors: "Negar Ghorbani, Reyhaneh Jabbarvand, <u>Navid Salehnamadi</u>, Joshua Garcia, and Sam Malek"
+    conference: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
 #    video: "https://youtu.be/apEntYA3uIo"
 #    repo: "https://github.com/seal-hub/ercatcher"
 #    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf"
 #    html_url: "http://seal.ics.uci.edu/projects/ercatcher/index.html"
- 
+
   - name: "Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps"
     authors: "Forough Mehralian, <u>Navid Salehnamadi</u>, and Sam Malek"
     conference: "<strong>ESEC/FSE 2021</strong>, he ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, August 2021"
