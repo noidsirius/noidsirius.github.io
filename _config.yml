@@ -16,12 +16,17 @@ defaults:
     values:
       layout: "post"
 
-bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
-"
+bio: "Besides that, I enjoy reading comics, solving puzzles, playing music"
+# bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music"
+# (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
 
-about: "I'm Navid, a Ph.D. candidate at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
-My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
-I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
+
+about: "I'm Navid, a recent Ph.D. graduate in Software Engineering from <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a>, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
+I'm passionate about automating manual work.
+I have designed and developed automated software testing tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
+I'm a skillful engineer in Python and Java who enjoys sharing his knowledge with others through publicly available code repositories, blog posts, or research papers.
+<br>
+I'm actively looking for a <strong>software engineer job</strong> and can start working in the USA immediately. <strong>If you are hiring, please let me know</strong>.
 "
 
 email: nsalehna@uci.edu
@@ -51,7 +56,7 @@ work:
     company_url: "http://seal.ics.uci.edu/"
     role: "Graduate Research Assistant"
     start: "October 2017"
-    end: "Present"
+    end: "September 2022"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Designed and created novel testing techniques to detect accessibility and delivery issues in android apps </li>
       <li> Devised a scalable and accurate static analysis technique to detect event races </li>
@@ -80,19 +85,25 @@ work:
 
 
 publication:
+  - name: "ROUTE: Roads Not Taken in UI Testing"
+    authors: "Jun-Wei Lin, <u>Navid Salehnamadi</u>, and Sam Malek"
+    conference: "ACM Transactions on Software Engineering and Methodology (<strong>TOSEM</strong>)"
+    pdf: "https://dl.acm.org/doi/pdf/10.1145/3571851"
   - name: "Groundhog: An Automated Accessibility Crawler for Mobile Apps"
     authors: "<u>Navid Salehnamadi*</u>, Forough Mehralian*, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
+    pdf: "https://seal.ics.uci.edu/publications/2022_ASE_Groundhog.pdf"
   - name: "Too Much Accessibility is Harmful! Automated Detection and Analysis of Overly Accessible Elements in Mobile Apps"
     authors: "Forough Mehralian*, <u>Navid Salehnamadi*</u>, Syed Fatiul Huq, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
+    pdf: "https://seal.ics.uci.edu/publications/2022_ASE_Oversight.pdf"
   - name: "DeltaDroid: Dynamic Delivery Testing in Android"
     authors: "Negar Ghorbani, Reyhaneh Jabbarvand, <u>Navid Salehnamadi</u>, Joshua Garcia, and Sam Malek"
-    conference: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+    conference: "ACM Transactions on Software Engineering and Methodology (<strong>TOSEM</strong>)"
+    pdf: "https://dl.acm.org/doi/pdf/10.1145/3563213"
 #    video: "https://youtu.be/apEntYA3uIo"
 #    repo: "https://github.com/seal-hub/ercatcher"
-#    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf"
-#    html_url: "http://seal.ics.uci.edu/projects/ercatcher/index.html"
+#    html_url: "https://dl.acm.org/doi/pdf/10.1145/3563213"
 
   - name: "Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps"
     authors: "Forough Mehralian, <u>Navid Salehnamadi</u>, and Sam Malek"
