@@ -16,18 +16,23 @@ defaults:
     values:
       layout: "post"
 
-bio: "Besides that, I enjoy reading comics, solving puzzles, playing music"
+bio: "Besides that, I enjoy reading comics/manga, solving puzzles, playing music"
 # bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music"
 # (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
 
 
-about: "I'm Navid, a recent Ph.D. graduate in Software Engineering from <a href=\"https://uci.edu/\">the University of California, Irvine</a>, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
-I'm passionate about automating manual work.
-I have designed and developed automated software testing tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
-I'm a skillful engineer in Python and Java who enjoys sharing his knowledge with others through publicly available code repositories, blog posts, or research papers.
+about: "I'm Navid, a Machine Learning Engineer at <a href='https://www.tesla.com/autopilot'>Tesla AI</a>, where I design and develop scalable frameworks for processing and curating massive video datasets to train generative models for self-driving technology.
+My work includes building data pipelines and orchestration frameworks to automate the ingestion, curation, training, and deployment of machine learning models, which are now deployed in Tesla vehicles worldwide.
+<br>
+I completed my Ph.D. in Software Engineering at the University of California, Irvine, under the guidance of <a href='https://malek.ics.uci.edu/'>Prof. Sam Malek</a>. 
+My research focused on leveraging program analysis and machine learning techniques to automate software testing and detect accessibility issues in mobile apps.
+<br>
+I'm passionate about automating manual processes and am skilled in Python, Java, and various machine learning and data engineering frameworks.
 "
 
-email: nsalehna@uci.edu
+# I enjoy sharing my knowledge through code repositories, technical writing, and collaborative research.
+
+# email: navid.saleh.n@gmail.com
 
 social_media:
   # behance: your_username
@@ -41,7 +46,7 @@ social_media:
   scholar: 2WTPqM8AAAAJ
   # mastodon: your_username
   medium: noidsirius
-  stackoverflow: 2681272/noidsirius
+  # stackoverflow: 2681272/noidsirius
   # telegram: your_username
   twitter: nsalehna
   # unsplash: your_username
@@ -50,6 +55,16 @@ social_media:
   # youtube: your_username
 
 work:
+  - company: "Tesla AI"
+    company_url: "https://www.tesla.com/autopilot"
+    role: "Senior Machine Learning Engineer"
+    start: "February 2023"
+    end: "now"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed and developed a scalable dataset generation and validation framework,
+      processing tens of millions of video clips on a daily basis to produce high-quality datasets for generative models in self-driving software. </li>
+      <li> Led the creation of data pipelines and datasets for the end-to-end self-driving model deployed in all Tesla vehicles (version 12+). </li>
+    </ul>"
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu/"
     role: "Graduate Research Assistant"
@@ -83,6 +98,10 @@ work:
 
 
 publication:
+  - name: "Assistive-Technology Aided Manual Accessibility Testing in Mobile Apps, Powered by Record-and-Replay"
+    authors: "<u>Navid Salehnamadi</u>, Ziyao He, and Sam Malek"
+    conference: "Proceedings of the 2023 <strong>CHI</strong> Conference on Human Factors in Computing Systems"
+    pdf: "https://dl.acm.org/doi/pdf/10.1145/3544548.3580679"
   - name: "ROUTE: Roads Not Taken in UI Testing"
     authors: "Jun-Wei Lin, <u>Navid Salehnamadi</u>, and Sam Malek"
     conference: "ACM Transactions on Software Engineering and Methodology (<strong>TOSEM</strong>)"
@@ -190,7 +209,7 @@ topics:
 
   - name: Machine Learning
 
-  - name: Agile (Scrum)
+  - name: Agile
 
   - name: CSS
     web_url: https://github.com/topics/css
